@@ -14,7 +14,7 @@ namespace LinqAndLambda.Entities
         }
         public override string ToString()
         {
-            return $"Id: {Id}, Name: {Name}, Price: {Price.ToString("F2", CultureInfo.InvariantCulture)}, Category: {Category.Tier}";
+            return $"Id: {Id}, Name: {Name}, Price: {Price.ToString("F2", CultureInfo.InvariantCulture)}, Tier: {Category.Tier}";
         }
     }
 }
